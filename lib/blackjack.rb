@@ -61,5 +61,9 @@ welcome
 initial_round
 prompt_user
 get_user_input
+until card_total > 21
+  
+end
+end_game
 
 end
