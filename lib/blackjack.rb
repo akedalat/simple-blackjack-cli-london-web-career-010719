@@ -59,10 +59,10 @@ end
 def runner
 welcome
 initial_round
-prompt_user
-get_user_input
-until card_total > 21
 
+until card_total > 21
+hit?
+display_card_total
 end
 end_game
 
