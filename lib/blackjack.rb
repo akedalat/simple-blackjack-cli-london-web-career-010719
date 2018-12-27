@@ -57,8 +57,8 @@ end
 #####################################################
 
 def runner
-  get_user_input
   welcome
+  initial_round
 
 
 end
